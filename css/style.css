@@ -1,0 +1,128 @@
+main{
+    height: calc(100% - 118px);
+}
+main.upload-page{
+    height: calc(100% - 136px);
+}
+main.admin-home-page{
+    height: calc(100% - 106px);
+}
+.hall-frame {
+    height: 250px;
+}
+
+.order-page .hall-frame img{
+    width: calc(100% - 0px)
+}
+
+.hall-frame .img {
+    height: 80%;
+}
+
+.order-page .hall-frame .img {
+    height: 80%;
+}
+
+.hall-frame img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.hall-button{
+    background: #ddd;
+}
+.order-page .hall-button{
+    background: white;
+}
+
+form.create-form,
+form.login-form {
+    height: 400px;
+    width: 95%;
+}
+
+input {
+    width: calc(100% - 15px);
+}
+.create-acc-btn{
+    width: 100%;
+    padding: 10px;
+}
+.desc{
+    text-align: justify;
+}
+
+li{
+    list-style: none;
+}
+
+input[type='file']{
+    display: none;
+}
+
+label{
+    font-weight: bold;
+}
+textarea {
+    resize: none;
+}
+
+th, td{
+    padding: 8px;
+}
+
+table {
+    border: 1px solid black;
+}
+tr:nth-child(even) {
+    background-color: rgb(236, 233, 233);
+    font-weight: 200;
+}
+
+select {
+    width: 100%;
+}
+
+.capital-letter {
+    text-transform: uppercase;
+}
+.user {
+    background-color: #333;
+    color: #ddd;
+}
+.logout-cover {
+    
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+.box {
+    height: 150px;
+    width: 250px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.box-title {
+    background: #333;
+    color: #ddd;
+}
+
+#logout {
+    cursor: pointer;
+}
+
+.box .content {
+    height: calc(100% - 80px);
+    
+}
+@media only screen and (min-width: 992px) {
+    .manager-page{
+        width: 600px;
+        margin: auto;
+    }
+}
